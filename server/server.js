@@ -14,7 +14,7 @@ const cors = require("cors")
 
 
 const corsOption = {
-    origin:"http://localhost:5173",
+    origin:"http://deploy-mern-1whq.vercel.app",
     methods:"GET, POST, PUT, DELETE, PATCH, HEAD",
     credential:true
 }
