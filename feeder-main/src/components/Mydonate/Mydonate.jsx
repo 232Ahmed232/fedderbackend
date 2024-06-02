@@ -18,7 +18,7 @@ function Mydonate(props) {
 
   const getdata = async()=>{
     try {
-      const response = await fetch("http://localhost:3000/api/template/useritem/"+id_string,{
+      const response = await fetch("https://fedder.vercel.app/api/template/useritem/"+id_string,{
           method:"GET",
           headers:{
               'Content-Type':"application/json"
