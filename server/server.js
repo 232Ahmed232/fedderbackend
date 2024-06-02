@@ -23,9 +23,9 @@ app.use(cors(corsOption))
 
 
 app.use(express.json())
-app.use("/api/auth", authRoute)
-app.use("/api/contact", contactRoute)
-app.use("/api/template",itemRouter)
+app.use("api/auth", authRoute)
+app.use("api/contact", contactRoute)
+app.use("api/template",itemRouter)
 
 
 app.use(errorMiddlewear)
