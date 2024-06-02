@@ -53,7 +53,7 @@ userSchema.methods.gentoken = async function () {
                 email: this.email,
                 isAdmin: this.isAdmin
             },
-            process.env.SECRET_KEY,
+            QWERTY,
             {
                 expiresIn:"30d"
             }
