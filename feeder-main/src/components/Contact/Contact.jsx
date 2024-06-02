@@ -56,7 +56,7 @@ function Contact() {
         e.preventDefault();
 
        try {
-         const response = await fetch("http://fedder.vercel.app/api/contact/contact",{
+         const response = await fetch("https://fedder.vercel.app//api/contact/contact",{
              method:"POST",
              headers:{
                 'Content-Type':"application/json"
