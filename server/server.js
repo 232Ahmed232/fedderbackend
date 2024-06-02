@@ -14,7 +14,7 @@ const cors = require("cors")
 
 
 const corsOption = {
-    origin:"http://deploy-mern-1whq.vercel.app",
+    origin:"https://fedderfrontend.vercel.app/",
     methods:"GET, POST, PUT, DELETE, PATCH, HEAD",
     credential:true
 }
