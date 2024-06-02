@@ -4,7 +4,7 @@ url = "mongodb+srv://ahmed:ahmed@cluster0.y4qsdmp.mongodb.net/"
 
 const connectDb = async () =>{
     try {
-      await   mongoose.connect(process.env.MONGODB_URI)
+      await   mongoose.connect(url)
       console.log("connectiuon successful to db");
 
     } catch (error) {
