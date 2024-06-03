@@ -28,7 +28,7 @@ export  const AuthProvider = ({children}) => {
     const userAuthorization = async()=>{
         try {
             // console.log(token);
-            const response =  await fetch("https://fedder.vercel.app/api/auth/user",{
+            const response =  await fetch(`${window.location.origin}/api/auth/user`,{
                 method:"GET",
                 headers:{
                     Authorization:token
