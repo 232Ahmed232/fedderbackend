@@ -84,7 +84,7 @@ function Template() {
         console.log(user);
 
        try {
-         const response = await fetch("https://fedder.vercel.app/api/template/item",{
+         const response = await fetch(`${window.location.origin}/api/template/item`,{
              method:"POST",
              headers:{
                  'Content-Type':"application/json"
